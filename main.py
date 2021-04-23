@@ -15,6 +15,6 @@ while '_' in display:
     for position in range(word_length):
         letter = chosen_word[position]
         if letter == guess:
-            display[position] = letter
+            display[position] = guess
     print(display)
-print('Game Over')
+print('You win!')
